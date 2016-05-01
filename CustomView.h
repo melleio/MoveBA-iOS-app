@@ -1,4 +1,15 @@
-/** Cycle Philly, 2013 Code For Philly
+/** Move Bay Area, 2013 melle.io
+ *                                    Philadelphia, PA. USA
+ *
+ *
+ *   Contact:
+ *            Lloyd Emelle <lemelle@codeforamerica.org>
+ *
+ *   Updated/Modified for San Mateo County, and the bay area. Based on the
+ *   Cycle Atlanta and Cycle Philly and CycleTracks  codebase for SFCTA.
+
+ 
+ ** Cycle Philly, 2013 Code For Philly
  *                                    Philadelphia, PA. USA
  *
  *

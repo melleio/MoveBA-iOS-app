@@ -185,12 +185,12 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* CycleAtlantaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleAtlantaAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* CycleAtlantaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleAtlantaAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* CyclePhilly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyclePhilly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* MoveBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* Cycle Philly_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cycle Philly_Prefix.pch"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Move Bay Area_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Move Bay Area_Prefix.pch"; sourceTree = "<group>"; };
 		4688ACA51902B8EF00A67FAF /* TookTransitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TookTransitViewController.h; sourceTree = "<group>"; };
 		4688ACA61902B8EF00A67FAF /* TookTransitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TookTransitViewController.m; sourceTree = "<group>"; };
 		4688ACAA1902CF1B00A67FAF /* TookTransitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TookTransitViewController.xib; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 		64F824E4106AFFA4001413F8 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
 		64F824E5106AFFA4001413F8 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
 		64FCC5B311352242000FA1B6 /* PersonalInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInfo.xib; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Cycle Philly-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Cycle Philly-Info.plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Move Bay Area-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Move Bay Area-Info.plist"; sourceTree = "<group>"; };
 		8F1B1D3D164B94C60022B776 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8F1B1D3E164B94C60022B776 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		8F1B1D40164B94E90022B776 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
@@ -487,7 +487,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* CyclePhilly.app */,
+				1D6058910D05DD3D006BFB54 /* MoveBA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -516,7 +516,7 @@
 			isa = PBXGroup;
 			children = (
 				64F823B6106AB402001413F8 /* constants.h */,
-				32CA4F630368D1EE00C91783 /* Cycle Philly_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Move Bay Area_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				DA2D78321A91F36200C54FB9 /* migrate.c */,
 			);
@@ -535,7 +535,7 @@
 				6411A185106A90E400C201F0 /* TripPurposePickerIcons v2 */,
 				6411A16A106A05DE00C201F0 /* Images */,
 				6458114D107AA4D30075DABD /* bicycle-bell-normalized.aiff */,
-				8D1107310486CEB800E47090 /* Cycle Philly-Info.plist */,
+				8D1107310486CEB800E47090 /* Move Bay Area-Info.plist */,
 				64577E28106DC2FD003ACBFD /* dist.plist */,
 				64210F28113508B800415F1A /* MainWindow.xib */,
 				642F14791071D3F10050BCB9 /* MapViewController.xib */,
@@ -763,9 +763,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Cycle Philly */ = {
+		1D6058900D05DD3D006BFB54 /* Move Bay Area */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Cycle Philly" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Move Bay Area" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -775,9 +775,9 @@
 			);
 			dependencies = (
 			);
-			name = "Cycle Philly";
+			name = "Move Bay Area";
 			productName = CycleTracks;
-			productReference = 1D6058910D05DD3D006BFB54 /* CyclePhilly.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* MoveBA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -793,7 +793,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cycle Philly" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Move Bay Area" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -804,7 +804,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Cycle Philly */,
+				1D6058900D05DD3D006BFB54 /* Move Bay Area */,
 			);
 		};
 /* End PBXProject section */
@@ -1003,13 +1003,13 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cycle Philly_Prefix.pch";
-				INFOPLIST_FILE = "Cycle Philly-Info.plist";
+				GCC_PREFIX_HEADER = "Move Bay Area_Prefix.pch";
+				INFOPLIST_FILE = "Move Bay Area-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodeforPhilly.Cycle;
-				PRODUCT_NAME = CyclePhilly;
+				PRODUCT_BUNDLE_IDENTIFIER = org.moveba.easystreet;
+				PRODUCT_NAME = MoveBA;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1032,13 +1032,13 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cycle Philly_Prefix.pch";
-				INFOPLIST_FILE = "Cycle Philly-Info.plist";
+				GCC_PREFIX_HEADER = "Move Bay Area_Prefix.pch";
+				INFOPLIST_FILE = "Move Bay Area-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodeforPhilly.Cycle;
-				PRODUCT_NAME = CyclePhilly;
+				PRODUCT_BUNDLE_IDENTIFIER = org.moveba.easystreet;
+				PRODUCT_NAME = MoveBA;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1049,8 +1049,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1077,13 +1077,13 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cycle Philly_Prefix.pch";
-				INFOPLIST_FILE = "Cycle Philly-Info.plist";
+				GCC_PREFIX_HEADER = "Move Bay Area_Prefix.pch";
+				INFOPLIST_FILE = "Move Bay Area-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodeforPhilly.Cycle;
-				PRODUCT_NAME = CyclePhilly;
+				PRODUCT_BUNDLE_IDENTIFIER = org.moveba.easystreet;
+				PRODUCT_NAME = MoveBA;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -1096,8 +1096,8 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = dist.plist;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1128,13 +1128,13 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cycle Philly_Prefix.pch";
-				INFOPLIST_FILE = "Cycle Philly-Info.plist";
+				GCC_PREFIX_HEADER = "Move Bay Area_Prefix.pch";
+				INFOPLIST_FILE = "Move Bay Area-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodeforPhilly.Cycle;
-				PRODUCT_NAME = CyclePhilly;
+				PRODUCT_BUNDLE_IDENTIFIER = org.moveba.easystreet;
+				PRODUCT_NAME = MoveBA;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1145,8 +1145,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1174,13 +1174,13 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Cycle Philly_Prefix.pch";
-				INFOPLIST_FILE = "Cycle Philly-Info.plist";
+				GCC_PREFIX_HEADER = "Move Bay Area_Prefix.pch";
+				INFOPLIST_FILE = "Move Bay Area-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodeforPhilly.Cycle;
-				PRODUCT_NAME = CyclePhilly;
+				PRODUCT_BUNDLE_IDENTIFIER = org.moveba.easystreet;
+				PRODUCT_NAME = MoveBA;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1191,8 +1191,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1209,8 +1209,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kathryn Killebrew (4R28S5TJB2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Emelle Me LLC (6969LZKKE9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1224,7 +1224,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Cycle Philly" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Move Bay Area" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -1236,7 +1236,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cycle Philly" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Move Bay Area" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

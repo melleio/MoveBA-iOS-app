@@ -79,7 +79,7 @@
 #define kSavingNoteTitle    @"Uploading your note"
 #define kSuccessTitle		@"Upload complete"
 #define kTripNotesTitle		@"Enter Comments Below"
-#define kConsentFor18Title  @"In order to transmit route data, you must be at least 18."
+#define kConsentFor18Title  @"In order to transmit route data, you must be at least 13."
 
 
 #define kInterruptedTitle		@"Recording Interrupted"
@@ -90,7 +90,7 @@
 #define kZeroDistanceMessage	@"Your trip distance estimates may need to be recalculated..."
 
 // alert messages
-#define kConsentFor18Message @"Are you at least 18 years old?"
+#define kConsentFor18Message @"Are you at least 13 years old?"
 #define kBatteryMessage		@"Recording of your trip has been halted to preserve battery life."
 #define kConnecting			@"Contacting server..."
 #define kPreparingData		@"Preparing your trip data for transfer."
@@ -99,14 +99,14 @@
 #define kSaveAccepted		@"Your trip has already been uploaded. Thank you."
 #define kSaveError			@"Your trip has been saved. Please try uploading again later."
 
-//	updated references for posting to Cycle Philly site for Cycle Philly adaptation for questions email Corey Acri acri.corey@gmail.com
+//	updated references 
 
-#define kInfoURL			@"http://www.cyclephilly.org/#about"
-#define kInstructionsURL	@"mailto:support@cyclephilly.org"
+#define kInfoURL			@"http://www.moveba.org/#about"
+#define kInstructionsURL	@"mailto:support@moveba.org"
 
-#define kSaveURL			@"https://www.cyclephilly.org/post/"
+#define kSaveURL			@"https://www.moveba.org/post/"
 
-#define kFireDomain			@"https://cyclephilly.firebaseio.com/"
+#define kFireDomain			@"https://m-0.firebaseio.com/"
 //#define kSaveURL			@""
 
 #define kTripNotesPlaceholder	@"Comments"

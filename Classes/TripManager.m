@@ -618,7 +618,7 @@
 							  nil];
     
     // Firebase upload - testing
-    Firebase *ref = [[Firebase alloc] initWithUrl:@"https://cyclephilly.firebaseio.com/trips/"];
+    Firebase *ref = [[Firebase alloc] initWithUrl:@"https://m-0.firebaseio.com/trips/"];
     Firebase *post1Ref = [ref childByAutoId];
     [post1Ref setValue:postVars withCompletionBlock:^(NSError *error, Firebase *ref) {
         if(error){

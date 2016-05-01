@@ -1,30 +1,32 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6110CC6252755727643E36F2E3E0B2B306648F28+++1751453",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6110CC6252755727643E36F2E3E0B2B306648F28+++6B59BD7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "6110CC6252755727643E36F2E3E0B2B306648F28+++1751453" : 0,
     "6110CC6252755727643E36F2E3E0B2B306648F28+++4052AE6" : 0,
-    "6110CC6252755727643E36F2E3E0B2B306648F28+++07112F3" : 0
+    "6110CC6252755727643E36F2E3E0B2B306648F28+++1751453" : 0,
+    "6110CC6252755727643E36F2E3E0B2B306648F28+++07112F3" : 0,
+    "6110CC6252755727643E36F2E3E0B2B306648F28+++6B59BD7" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8CDC3EE8-E2D7-4BF6-B686-6B14D1EB681E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "6110CC6252755727643E36F2E3E0B2B306648F28+++1751453" : "CyclePhilly-iOS-app\/",
     "6110CC6252755727643E36F2E3E0B2B306648F28+++4052AE6" : "",
-    "6110CC6252755727643E36F2E3E0B2B306648F28+++07112F3" : "CyclePhilly-iOS"
+    "6110CC6252755727643E36F2E3E0B2B306648F28+++1751453" : "MoveBA-iOS-app\/",
+    "6110CC6252755727643E36F2E3E0B2B306648F28+++07112F3" : "MoveBA-iOS",
+    "6110CC6252755727643E36F2E3E0B2B306648F28+++6B59BD7" : "MoveBA-iOS-app\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Cycle Philly",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Cycle Philly.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PhillyOpen\/Cycle-Philly-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/melleio\/MoveBA-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6110CC6252755727643E36F2E3E0B2B306648F28+++07112F3"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CfABrigadePhiladelphia\/CyclePhilly-iOS-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:melleio\/MoveBA-iOS-app.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6110CC6252755727643E36F2E3E0B2B306648F28+++1751453"
     },
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PhillyOpen\/Cycle-Philly-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6110CC6252755727643E36F2E3E0B2B306648F28+++4052AE6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:melleio\/MoveBA-iOS-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6110CC6252755727643E36F2E3E0B2B306648F28+++6B59BD7"
     }
   ]
 }
