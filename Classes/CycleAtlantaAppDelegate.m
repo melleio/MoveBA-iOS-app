@@ -114,6 +114,7 @@
              NSLog(@"Firebase auth error!");
         } else {
             // We are now logged in!
+             NSLog(@"Firebase auth success!");
             NSDictionary *newUser = @{
                                       @"provider": authData.provider,
                                       @"uid": authData.uid

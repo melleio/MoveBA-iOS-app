@@ -256,11 +256,14 @@
     if ([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
         [self.locationManager requestAlwaysAuthorization];
     }
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9) {
+        self.locationManager.allowsBackgroundLocationUpdates = YES;
+    }
     self->mapView.showsUserLocation = YES;
     [self.locationManager startUpdatingLocation];
     
-    // init map region to Philadelphia
-	MKCoordinateRegion region = { { 39.954491, -75.163758 }, { 0.0078, 0.0068 } };
+    // init map region to bay area
+	MKCoordinateRegion region = { { 37.4882258, -122.2308181 }, { 0.0078, 0.0068 } };
 	[mapView setRegion:region animated:NO];
 	
 	// setup info button used when showing recorded trips
@@ -577,24 +580,7 @@
         appDelegate = [[UIApplication sharedApplication] delegate];
         appDelegate.isRecording = YES;
         recording = YES;
-        // Write to Firebase
-        // Create a reference to a Firebase location
-        NSDateFormatter *formatter;
-        NSString        *today;
-        formatter = [[NSDateFormatter alloc] init];
-        [formatter setDateFormat:@"yyyy/MM/dd/"];
-        today = [formatter stringFromDate:[NSDate date]];
-        NSMutableString *fireURL = [[NSMutableString alloc] initWithString:kFireDomain];
-        [fireURL appendString:@"trips-started/"];
-        [fireURL appendString:today];
         
-        Firebase* fStart = [[Firebase alloc] initWithUrl:fireURL];
-        Firebase* timeStart = [fStart childByAutoId];
-        //NSLog(@"%@",fireURL);
-        NSTimeInterval timeStamp = [[NSDate date] timeIntervalSince1970] * 1000;
-        // NSTimeInterval is defined as double
-        NSNumber *timeStampObj = [NSNumber numberWithDouble: timeStamp];
-        [timeStart setValue:timeStampObj];
         
         [[NSUserDefaults standardUserDefaults] setInteger:1 forKey: @"recording"];
         [[NSUserDefaults standardUserDefaults] synchronize];
